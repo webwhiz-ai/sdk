@@ -1,0 +1,32 @@
+{
+  "name": "webwhiz",
+  "version": "1.0.0",
+  "description": "create ai chatbot trained on your data",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webwhiz-ai/sdk.git"
+  },
+  "source": [
+    "sdk.js"
+  ],
+  "main": "dist/sdk.js",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "targets": {
+    "main": {
+      "optimize": true
+    }
+  },
+  "author": "Sachin Neravath",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webwhiz-ai/sdk/issues"
+  },
+  "homepage": "https://github.com/webwhiz-ai/sdk#readme",
+  "dependencies": {
+    "parcel": "^2.9.3"
+  }
+}
