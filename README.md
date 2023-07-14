@@ -2,11 +2,27 @@
 
 Train ChatGPT on Your Website Data and Build an AI Chatbot that can instantly answer your customers queries.
 
+Note: This repo is specifically for WebWhiz SDK licensed under MIL license
+
 ![webwhiz](https://user-images.githubusercontent.com/6586706/236858939-4f3e4ac0-f3f7-4f76-8fee-add747b09ce1.png)
 
+## Installation
 
-## This repo is specifically for WebWhiz sdk licensed under MIL license
+WebWhiz SDK is available on NPM, CDNs, and GitHub. You can use any
+of the following method to download WebWhiz SDK.
 
+-   [NPM](https://www.npmjs.com/) - NPM is a package manager for the JavaScript
+    programming language. You can install `webwhiz` using the following
+    command
+
+    ```sh
+    npm install webwhiz
+    ```
+- [CDN](https://www.unpkg.com/webwhiz@1.0.0/dist/sdk.js) Use directly from CDN
+
+  ```sh
+    https://www.unpkg.com/webwhiz@1.0.0/dist/sdk.js
+  ```
 
 
 ## 🔥 Core features
