@@ -8,8 +8,7 @@ Note: This repo is specifically for WebWhiz SDK licensed under MIL license
 
 ## Installation
 
-WebWhiz SDK is available on NPM, CDNs, and GitHub. You can use any
-of the following method to download WebWhiz SDK.
+WebWhiz SDK is available on NPM, CDNs, and GitHub.
 
 -   [NPM](https://www.npmjs.com/) - NPM is a package manager for the JavaScript
     programming language. You can install `webwhiz` using the following
