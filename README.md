@@ -47,10 +47,10 @@ Replace YOUR_WIDGET_URL, YOUR_BASE_URL, and YOUR_CHATBOT_ID with your actual val
 Here's an example of a configured script tag for self-hosted configuration:
 
 ```html
-<script id="__webwhizSdk__" widgetUrl="https://widget.webwhiz.ai/" baseUrl="https://api.webwhiz.ai" src="webwhiz-sdk.js" chatbotId="64fsdfdc33675875fd4c0ec1"></script>
+<script id="__webwhizSdk__" widgetUrl="https://widget.webwhiz.ai/" baseUrl="https://api.webwhiz.ai" src="webwhiz-sdk.js" chatbotId="64fs3dfdc33675875fd4c0ec1"></script>
 ```
 
-In the above example, the widgetUrl is set to https://widget.webwhiz.ai/, the baseUrl is set to https://api.webwhiz.ai, and the chatbotId is 6416c5dc35e8d875fd4c0ec1.
+In the above example, the widgetUrl is set to https://widget.webwhiz.ai/, the baseUrl is set to https://api.webwhiz.ai, and the chatbotId is 64fs3dfdc33675875fd4c0ec1.
 
 Please ensure to replace these values with your actual URLs and Chatbot ID.
 
