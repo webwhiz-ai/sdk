@@ -23,8 +23,42 @@ WebWhiz SDK is available on NPM, CDNs, and GitHub.
     https://www.unpkg.com/webwhiz@1.0.0/dist/sdk.js
   ```
 
+## Configuration 
+To set up the WebWhiz chatbot on your website, add the following script tag to your HTML:
 
-## 🔥 Core features
+``` html
+<script id="__webwhizSdk__" src="https://www.unpkg.com/webwhiz@1.0.0/dist/sdk.js" chatbotId="YOUR_CHATBOT_ID"></script>
+```
+Replace YOUR_CHATBOT_ID with your actual chatbot's unique identifier.
+
+## Self-hosted Configuration
+
+```html
+<script id="__webwhizSdk__" widgetUrl="YOUR_WIDGET_URL" baseUrl="YOUR_BASE_URL" src="webwhiz-sdk.js" chatbotId="YOUR_CHATBOT_ID"></script>
+```
+Replace YOUR_WIDGET_URL, YOUR_BASE_URL, and YOUR_CHATBOT_ID with your actual values.
+
+#### Parameters
+- widgetUrl: This is the URL of the chatbot iframe that the script uses to build the chatbot. Replace YOUR_WIDGET_URL with the URL where the chatbot iframe resides.
+- baseUrl: This is the base URL of the API used to fetch the data. Replace YOUR_BASE_URL with the base URL of your API.
+- chatbotId: The unique identifier of your chatbot. Replace YOUR_CHATBOT_ID with your chatbot's unique identifier.
+
+#### Example
+Here's an example of a configured script tag for self-hosted configuration:
+
+```html
+<script id="__webwhizSdk__" widgetUrl="https://widget.webwhiz.ai/" baseUrl="https://api.webwhiz.ai" src="webwhiz-sdk.js" chatbotId="64fsdfdc33675875fd4c0ec1"></script>
+```
+
+In the above example, the widgetUrl is set to https://widget.webwhiz.ai/, the baseUrl is set to https://api.webwhiz.ai, and the chatbotId is 6416c5dc35e8d875fd4c0ec1.
+
+Please ensure to replace these values with your actual URLs and Chatbot ID.
+
+If you're not self-hosting, you only need to specify the chatbotId. The widgetUrl and baseUrl will use default values. After inserting the relevant script tag into your website, the WebWhiz chatbot will be enabled and configured as per your settings.
+
+
+
+## 🔥 WebWhiz Core features
 
 - Easy Integration
 - Data-Specific Responses
